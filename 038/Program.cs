@@ -60,4 +60,5 @@ CreateArray(array);
 PrintArray(array);
 double maxElement = MaxElement(array);
 double minElement = MinElement(array);
+
 Console.WriteLine($"Разница между максимальным ({maxElement}) и минимальным ({minElement}) элементами массива: {DiffMaxMin(array, maxElement, minElement)}");
